@@ -28,7 +28,7 @@ mongoose
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ message: 'VERA API is running', success: true });
+  res.json({ message: 'API is running', success: true });
 });
 
 // Start the server
